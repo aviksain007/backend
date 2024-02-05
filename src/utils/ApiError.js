@@ -12,7 +12,6 @@ class ApiError extends Error {
         this.succes = false,
         this.errors = errors
 
-
         if(stack) {
             this.stack = stack
         }

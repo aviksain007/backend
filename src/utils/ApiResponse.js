@@ -9,6 +9,7 @@ class ApiResponse {
         this.massage = massage
         this.success = statusCode < 400
     }
-}
+}  
 
 
+export default ApiResponse
